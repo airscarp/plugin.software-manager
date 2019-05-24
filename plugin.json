@@ -1,0 +1,8 @@
+{
+    "version"     : "1.0.0",
+    "name"        : "Software Manager",
+    "menu"        : "Software Manager",
+    "alias"       : "software-manager",
+    "os"          : ["ubuntu"],
+    "permissions" : ["shell.exec", "shell.run-script"]
+}

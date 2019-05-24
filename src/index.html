@@ -1,0 +1,17 @@
+<header class="sec desc">
+    <span class="content">
+        <span>Programs</span>
+    </span>
+</header>
+<div class="card card-red">
+    <div class="table-responsive" id="programs-table-cont"></div>
+</div>
+
+<script type="text/javascript">
+    airscarp.ready(function(){
+        
+        software.get_list(function(output){
+            var parsed = software.show_table(output);
+        });
+    });
+</script>
