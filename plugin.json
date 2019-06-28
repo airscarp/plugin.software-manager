@@ -1,8 +1,7 @@
 {
-    "version"     : "1.0.0",
     "name"        : "Software Manager",
     "menu"        : "Software Manager",
-    "alias"       : "software-manager",
+    "description  : "With the Software Manager plugin you can list and manage the software and packages installed on your server.",
     "os"          : ["ubuntu"],
-    "permissions" : ["shell.exec", "shell.run-script"]
+    "permissions" : ["shell.exec"]
 }
